@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap');
+
+body {
+    background: #bccddb;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header, .banner {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    text-align: center;
+    background: #e6e9ec;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container { max-width: 700px; margin: 0 auto; padding: 20px; }
+
+label { display: block; margin-top: 16px; font-weight: bold; }
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%; padding: 12px; margin-top: 6px; border: none;
+    border-radius: 6px; box-sizing: border-box; font-family: inherit;
+}
+
+.rating label { display: inline-block; margin-right: 16px; font-weight: normal; }
+
+button, .button {
+    display: inline-block; margin-top: 20px; padding: 10px 20px;
+    background: #4a7fa5; color: white; border: none; border-radius: 6px;
+    font-family: inherit; font-size: 1rem; text-decoration: none; cursor: pointer;
+}

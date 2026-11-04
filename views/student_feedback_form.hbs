@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Student Feedback</title>
+  <link rel="stylesheet" href="/feedback-styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="banner">Please provide feedback. You may do so anonymously</div>
+    <h1>Instructions</h1>
+    <p>Please share your thoughts about the course.</p>
+
+    <form action="/submit-feedback" method="POST">
+      <label for="name">Name (optional)</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="comments">Comments</label>
+      <textarea id="comments" name="comments" rows="5" placeholder="What went well? What could be improved?"></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+    <p><a href="/">Back to home</a></p>
+  </div>
+</body>
+</html>
